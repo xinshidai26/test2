@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+// +--------------------------------------------------------------------------
+// | ZAIYOUDAO [ 载攸道 先顺得常 ] <http://www.zaiyoudao.com>
+// +--------------------------------------------------------------------------
+// | Copyright © 2009-2015 ISDCE. All rights reserved <http://www.isdce.com>
+// +--------------------------------------------------------------------------
+// | Telephone: 4000-010-971(010-57209502)
+// +--------------------------------------------------------------------------
+// | Template: AbsoluteAdmin <http://absoluteadmin.yiphp.com>
+// +--------------------------------------------------------------------------
+// | Team: KUN [ 坤 ] <http://team.zaiyoudao.com>
+// +--------------------------------------------------------------------------
+// | Author: 牛很多戒很多不戒 <n@isdce.com> <http://juexue.wang>
+// +--------------------------------------------------------------------------
+// | Source: 无码人 <http://www.wuma.ren> OR 有码人 <http://www.youma.ren>
+// +--------------------------------------------------------------------------
+-->
+<html>
+	<head>
+        <!-- Title 开始 -->
+        <include file="Common@Admin/Body/Title" />
+        <!-- Title 结束 -->
+
+        <!-- DIY风格开始 -->
+        <block name="Style"></block>
+        <!-- DIY风格结束 -->
+
+        <link href="__BOOTSTRAP__/css/bootstrap.css" rel="stylesheet"/>
+        <link href="__All__/common/css/common.css" rel="stylesheet"/>
+
+        <style>
+
+
+        </style>
+		<!-- Script 开始 -->
+        <!-- Script 开始 -->
+        <include file="" />
+        <!-- Script 结束 -->
+
+
+
+    </head>
+    <body class="" style="background-color: #565656">
+    <!--页面开始-->
+    <!-- Header 开始 -->
+    <include file="Common@Admin/Body/Header" />
+    <!-- Header 结束 -->
+    <div class="container-fluid">
+
+        <!-- Nav 开始 -->
+        <include file="Common@Admin/Body/Nav" />
+        <!-- Nav 结束 -->
+
+
+
+        <div class="content clearfix">
+
+
+
+            <!--右侧内容主体开始-->
+            <div class="content_main">
+                <!--标题导航栏开始-->
+                <include file="Common@Admin/LayoutManager/B_New_Title" />
+                <!--标题导航栏结束-->
+
+                <!-- 主体内容开始 -->
+                <block name="Main"></block>
+                <!-- 主体内容结束 -->
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+    <!-- Footer 开始 -->
+    <include file="Common@Admin/LayoutManager/Footer" />
+    <!-- Footer 结束 -->
+
+    <!--模态框开始-->
+    <include file="Common@Admin/LayoutManager/B_New_Modal" />
+    <!--模态框结束-->
+
+    <!--系统消息开始-->
+    <include file="Common@Admin/LayoutManager/B_New_Message" />
+    <!--系统消息结束-->
+
+    <!-- 主体内容开始 -->
+    <block name="Else"></block>
+    <!-- 主体内容结束 -->
+
+    <!-- Script 开始 -->
+    <include file="Common@Admin/LayoutManager/B_Bottom_Script" />
+    <!-- Script 结束 -->
+
+    <!-- DIY脚本开始 -->
+    <block name="Script"></block>
+    <!-- DIY脚本结束 -->
+    </body>
+</html>

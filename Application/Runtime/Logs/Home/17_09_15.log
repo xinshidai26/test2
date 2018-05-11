@@ -1,0 +1,3011 @@
+[ 2017-09-15T16:49:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+
+[ 2017-09-15T16:49:13+08:00 ] 127.0.0.1 /Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004432s ]
+
+[ 2017-09-15T16:49:13+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+
+[ 2017-09-15T16:49:24+08:00 ] 127.0.0.1 /Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-09-15T16:49:48+08:00 ] 127.0.0.1 /Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000038s ]
+
+[ 2017-09-15T16:49:52+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000040s ]
+
+[ 2017-09-15T16:49:55+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+
+[ 2017-09-15T16:49:58+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000062s ]
+
+[ 2017-09-15T16:50:01+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+
+[ 2017-09-15T16:50:04+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000052s ]
+
+[ 2017-09-15T16:50:07+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000036s ]
+
+[ 2017-09-15T16:50:10+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000036s ]
+
+[ 2017-09-15T16:50:13+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-09-15T16:50:16+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+
+[ 2017-09-15T16:50:18+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000033s ]
+
+[ 2017-09-15T16:50:21+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+
+[ 2017-09-15T16:50:24+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000044s ]
+
+[ 2017-09-15T16:50:24+08:00 ] 127.0.0.1 /Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000038s ]
+
+[ 2017-09-15T16:50:27+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000052s ]
+
+[ 2017-09-15T16:50:30+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-09-15T16:50:33+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000040s ]
+
+[ 2017-09-15T16:50:36+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000043s ]
+
+[ 2017-09-15T16:50:39+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+
+[ 2017-09-15T16:50:42+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+
+[ 2017-09-15T16:50:45+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-09-15T16:50:48+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+
+[ 2017-09-15T16:50:51+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000036s ]
+
+[ 2017-09-15T16:50:54+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-09-15T16:50:57+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000044s ]
+
+[ 2017-09-15T16:51:01+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+
+[ 2017-09-15T16:51:04+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-09-15T16:51:07+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+
+[ 2017-09-15T16:51:10+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-09-15T16:51:13+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+
+[ 2017-09-15T16:51:16+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-09-15T16:51:18+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+
+[ 2017-09-15T16:51:22+08:00 ] 127.0.0.1 /Auth/Login/Main/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+
+[ 2017-09-15T16:51:24+08:00 ] 127.0.0.1 /Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000036s ]
+
+[ 2017-09-15T16:51:28+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2017-09-15T16:53:08+08:00 ] 127.0.0.1 /Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000038s ]
+
+[ 2017-09-15T16:53:10+08:00 ] 127.0.0.1 /Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+
+[ 2017-09-15T16:53:13+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2017-09-15T16:53:20+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-09-15T16:53:36+08:00 ] 127.0.0.1 /index.php/Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+
+[ 2017-09-15T16:53:39+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2017-09-15T16:54:52+08:00 ] 127.0.0.1 /Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = '111' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/own_test/Application/Home/Controller/Auth/Login/LoginController.class.php 第 30 行.
+NOTIC: [8] Undefined offset: 0 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 4 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 4 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 4 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 4 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 5 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 5 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 5 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 5 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 6 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 6 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 6 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 6 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 600 行.
+SQL: UPDATE `tcj_user_auth` SET `md5_key`='5157e476a9564774cbed6f7572918845' WHERE ( `id` = null AND `id` = null AND `id` = null AND `id` = null AND `id` = null AND `id` = null AND `id` = null  ) [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2017-09-15T16:54:53+08:00 ] 127.0.0.1 /Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 0  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-09-15T16:54:56+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000133s ]
+
+[ 2017-09-15T16:54:59+08:00 ] 127.0.0.1 /Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = '111' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Array to string conversion /var/www/own_test/Application/Home/Controller/Auth/Login/LoginController.class.php 第 30 行.
+NOTIC: [8] Undefined offset: 0 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 4 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 4 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 4 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 4 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 5 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 5 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 5 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 5 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 6 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 6 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 6 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 6 /var/www/own_test/ThinkPHP/Library/Think/Db/Driver.class.php 第 600 行.
+SQL: UPDATE `tcj_user_auth` SET `md5_key`='1981123cca26e8694fa5a355f5814972' WHERE ( `id` = null AND `id` = null AND `id` = null AND `id` = null AND `id` = null AND `id` = null AND `id` = null  ) [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-09-15T16:55:00+08:00 ] 127.0.0.1 /Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+
+[ 2017-09-15T16:55:03+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2017-09-15T16:56:36+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: name /var/www/own_test/Application/Home/Controller/Auth/Login/LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined index: password /var/www/own_test/Application/Home/Controller/Auth/Login/LoginController.class.php 第 21 行.
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = null AND `user_password` = null LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-15T16:57:04+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: name /var/www/own_test/Application/Home/Controller/Auth/Login/LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined index: password /var/www/own_test/Application/Home/Controller/Auth/Login/LoginController.class.php 第 21 行.
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = null AND `user_password` = null LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-09-15T16:57:04+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name /var/www/own_test/Application/Home/Controller/Auth/Login/LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined index: password /var/www/own_test/Application/Home/Controller/Auth/Login/LoginController.class.php 第 21 行.
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = null AND `user_password` = null LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-09-15T16:57:06+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000038s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: name /var/www/own_test/Application/Home/Controller/Auth/Login/LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined index: password /var/www/own_test/Application/Home/Controller/Auth/Login/LoginController.class.php 第 21 行.
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = null AND `user_password` = null LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-09-15T16:57:07+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = '111' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Array to string conversion /var/www/own_test/Application/Home/Controller/Auth/Login/LoginController.class.php 第 23 行.
+
+[ 2017-09-15T16:57:08+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = '111' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Array to string conversion /var/www/own_test/Application/Home/Controller/Auth/Login/LoginController.class.php 第 23 行.
+
+[ 2017-09-15T16:57:22+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = '111' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Array to string conversion /var/www/own_test/Application/Home/Controller/Auth/Login/LoginController.class.php 第 23 行.
+
+[ 2017-09-15T16:57:22+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000038s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = '111' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/own_test/Application/Home/Controller/Auth/Login/LoginController.class.php 第 23 行.
+
+[ 2017-09-15T16:57:22+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000037s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = '111' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Array to string conversion /var/www/own_test/Application/Home/Controller/Auth/Login/LoginController.class.php 第 23 行.
+
+[ 2017-09-15T16:57:23+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = '111' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Array to string conversion /var/www/own_test/Application/Home/Controller/Auth/Login/LoginController.class.php 第 23 行.
+
+[ 2017-09-15T16:57:23+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = '111' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion /var/www/own_test/Application/Home/Controller/Auth/Login/LoginController.class.php 第 23 行.
+
+[ 2017-09-15T16:57:23+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = '111' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Array to string conversion /var/www/own_test/Application/Home/Controller/Auth/Login/LoginController.class.php 第 23 行.
+
+[ 2017-09-15T16:57:23+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = '111' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Array to string conversion /var/www/own_test/Application/Home/Controller/Auth/Login/LoginController.class.php 第 23 行.
+
+[ 2017-09-15T16:57:23+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000038s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = '111' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Array to string conversion /var/www/own_test/Application/Home/Controller/Auth/Login/LoginController.class.php 第 23 行.
+
+[ 2017-09-15T16:57:23+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000035s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = '111' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Array to string conversion /var/www/own_test/Application/Home/Controller/Auth/Login/LoginController.class.php 第 23 行.
+
+[ 2017-09-15T16:57:25+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = '111' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-09-15T16:57:50+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = '111' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-09-15T16:57:52+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = '111' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-09-15T16:57:53+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `tcj_user_auth` WHERE `user_name` = '111' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-09-15T16:57:53+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000037s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `tcj_user_auth` WHERE `user_name` = '111' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-09-15T16:57:53+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000038s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `tcj_user_auth` WHERE `user_name` = '111' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-09-15T16:59:03+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-09-15T16:59:06+08:00 ] 127.0.0.1 /Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = '111' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tcj_user_auth` SET `md5_key`='ef140ab80d98d4a4fa3a2c570818f671' WHERE `id` = 2 [ RunTime:0.0632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000124s ]
+
+[ 2017-09-15T16:59:07+08:00 ] 127.0.0.1 /Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-09-15T16:59:11+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000049s ]
+
+[ 2017-09-15T16:59:17+08:00 ] 127.0.0.1 /Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = '111' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tcj_user_auth` SET `md5_key`='f5380afe9a2bac62162514466897e6df' WHERE `id` = 2 [ RunTime:0.0683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-09-15T16:59:18+08:00 ] 127.0.0.1 /Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000039s ]
+
+[ 2017-09-15T16:59:22+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2017-09-15T16:59:31+08:00 ] 127.0.0.1 /index.php/Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+
+[ 2017-09-15T16:59:34+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2017-09-15T17:00:12+08:00 ] 127.0.0.1 /index.php/Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0002s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2017-09-15T17:12:11+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000037s ]
+
+[ 2017-09-15T17:12:17+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000033s ]
+
+[ 2017-09-15T17:12:26+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+ERR: 模板不存在:./Application/Home/View/AbsoluteAdmin/Auth/Login/Login/Login.html
+
+[ 2017-09-15T17:12:30+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-09-15T17:20:51+08:00 ] 127.0.0.1 /index.php/Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+ERR: 模板不存在:./Application/Home/View/All/Auth/Login/Main/Main.html
+
+[ 2017-09-15T17:21:20+08:00 ] 127.0.0.1 /index.php/Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0006s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Meta.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Style.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Header.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Nav.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Hide.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Footer.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Modal.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Message.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_Bottom_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: body_class /var/www/own_test/Application/Runtime/Cache/Home/66564110f94f4aa5930f11873c07ee16.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000036s ]
+
+[ 2017-09-15T17:24:49+08:00 ] 127.0.0.1 /index.php/Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0005s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Meta.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Style.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Header.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Nav.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Hide.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Footer.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Modal.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Message.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_Bottom_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: body_class /var/www/own_test/Application/Runtime/Cache/Home/66564110f94f4aa5930f11873c07ee16.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000035s ]
+
+[ 2017-09-15T17:37:09+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000036s ]
+
+[ 2017-09-15T17:37:49+08:00 ] 127.0.0.1 /index.php/Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0002s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Footer.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Modal.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Message.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_Bottom_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2017-09-15T17:38:06+08:00 ] 127.0.0.1 /index.php/Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Footer.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Modal.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Message.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_Bottom_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2017-09-15T17:38:53+08:00 ] 127.0.0.1 /index.php/Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Footer.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Modal.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Message.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_Bottom_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: user /var/www/own_test/Application/Runtime/Cache/Home/66564110f94f4aa5930f11873c07ee16.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2017-09-15T17:46:51+08:00 ] 127.0.0.1 /index.php/Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0005s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Footer.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Modal.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Message.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_Bottom_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: user /var/www/own_test/Application/Runtime/Cache/Home/66564110f94f4aa5930f11873c07ee16.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2017-09-15T17:50:10+08:00 ] 127.0.0.1 /index.php/Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0006s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Footer.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Modal.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Message.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_Bottom_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: user /var/www/own_test/Application/Runtime/Cache/Home/66564110f94f4aa5930f11873c07ee16.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2017-09-15T17:50:11+08:00 ] 127.0.0.1 /index.php/Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Footer.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Modal.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Message.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_Bottom_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined variable: user /var/www/own_test/Application/Runtime/Cache/Home/66564110f94f4aa5930f11873c07ee16.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000031s ]
+
+[ 2017-09-15T17:54:12+08:00 ] 127.0.0.1 /index.php/Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Footer.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Modal.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Message.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_Bottom_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Undefined variable: user /var/www/own_test/Application/Runtime/Cache/Home/66564110f94f4aa5930f11873c07ee16.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2017-09-15T17:54:12+08:00 ] 127.0.0.1 /index.php/Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Footer.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Modal.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Message.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_Bottom_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: user /var/www/own_test/Application/Runtime/Cache/Home/66564110f94f4aa5930f11873c07ee16.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000031s ]
+
+[ 2017-09-15T17:54:13+08:00 ] 127.0.0.1 /Public/All/common/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+ERR: 无法加载控制器:Public/All/common
+
+[ 2017-09-15T17:54:13+08:00 ] 127.0.0.1 /index.php/Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000037s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Footer.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Modal.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Message.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_Bottom_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Undefined variable: user /var/www/own_test/Application/Runtime/Cache/Home/66564110f94f4aa5930f11873c07ee16.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000031s ]
+
+[ 2017-09-15T17:54:13+08:00 ] 127.0.0.1 /Public/All/common/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+ERR: 无法加载控制器:Public/All/common
+
+[ 2017-09-15T17:54:13+08:00 ] 127.0.0.1 /index.php/Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Footer.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Modal.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Message.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_Bottom_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined variable: user /var/www/own_test/Application/Runtime/Cache/Home/66564110f94f4aa5930f11873c07ee16.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2017-09-15T17:54:13+08:00 ] 127.0.0.1 /Public/All/common/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载控制器:Public/All/common
+
+[ 2017-09-15T17:54:14+08:00 ] 127.0.0.1 /index.php/Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0007s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0002s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Footer.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Modal.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Message.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_Bottom_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: user /var/www/own_test/Application/Runtime/Cache/Home/66564110f94f4aa5930f11873c07ee16.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000053s ]
+
+[ 2017-09-15T17:54:14+08:00 ] 127.0.0.1 /Public/All/common/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+ERR: 无法加载控制器:Public/All/common
+
+[ 2017-09-15T17:54:51+08:00 ] 127.0.0.1 /index.php/Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0005s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Footer.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Modal.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Message.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_Bottom_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined variable: user /var/www/own_test/Application/Runtime/Cache/Home/66564110f94f4aa5930f11873c07ee16.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000035s ]
+
+[ 2017-09-15T17:54:51+08:00 ] 127.0.0.1 /Public/All/common/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+ERR: 无法加载控制器:Public/All/common
+
+[ 2017-09-15T17:54:52+08:00 ] 127.0.0.1 /index.php/Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0006s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Footer.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Modal.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Message.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_Bottom_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined variable: user /var/www/own_test/Application/Runtime/Cache/Home/66564110f94f4aa5930f11873c07ee16.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000053s ]
+
+[ 2017-09-15T17:54:52+08:00 ] 127.0.0.1 /Public/All/common/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+ERR: 无法加载控制器:Public/All/common
+
+[ 2017-09-15T17:55:17+08:00 ] 127.0.0.1 /index.php/Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Footer.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Modal.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Message.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_Bottom_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: user /var/www/own_test/Application/Runtime/Cache/Home/66564110f94f4aa5930f11873c07ee16.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000037s ]
+
+[ 2017-09-15T17:57:09+08:00 ] 127.0.0.1 /index.php/Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0005s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Footer.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Modal.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Message.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_Bottom_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined variable: user /var/www/own_test/Application/Runtime/Cache/Home/66564110f94f4aa5930f11873c07ee16.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000044s ]
+
+[ 2017-09-15T17:58:54+08:00 ] 192.168.31.49 /own_test/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+
+[ 2017-09-15T17:59:25+08:00 ] 192.168.31.49 /own_test/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+
+[ 2017-09-15T18:00:19+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000034s ]
+
+[ 2017-09-15T18:01:20+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000033s ]
+
+[ 2017-09-15T18:01:39+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000053s ]
+
+[ 2017-09-15T18:01:40+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000107s ]
+
+[ 2017-09-15T18:01:41+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-09-15T18:01:41+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000030s ]
+
+[ 2017-09-15T18:01:41+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000049s ]
+
+[ 2017-09-15T18:01:41+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-09-15T18:01:42+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000053s ]
+
+[ 2017-09-15T18:02:07+08:00 ] 127.0.0.1 /index.php/Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2017-09-15T18:02:12+08:00 ] 127.0.0.1 /Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = '111' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tcj_user_auth` SET `md5_key`='44c6f87aa53fe715d3ee608b726357a6' WHERE `id` = 2 [ RunTime:0.0699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2017-09-15T18:02:14+08:00 ] 127.0.0.1 /Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000038s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0005s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Footer.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Modal.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Message.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_Bottom_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000028s ]
+
+[ 2017-09-15T18:02:20+08:00 ] 127.0.0.1 /Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = '1' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tcj_user_auth` SET `md5_key`='52927e817a666ae101394f374bf2cabe' WHERE `id` = 1 [ RunTime:0.1121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2017-09-15T18:02:22+08:00 ] 127.0.0.1 /Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 1  [ RunTime:0.0002s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Footer.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Modal.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Message.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_Bottom_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-09-15T18:02:30+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000118s ]
+
+[ 2017-09-15T18:02:53+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000117s ]
+
+[ 2017-09-15T18:04:23+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2017-09-15T18:06:59+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000119s ]
+
+[ 2017-09-15T18:07:37+08:00 ] 127.0.0.1 /Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000036s ]
+
+[ 2017-09-15T18:07:37+08:00 ] 127.0.0.1 /Public/All/js/modernizr.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+ERR: 无法加载控制器:Public/All/js
+
+[ 2017-09-15T18:07:37+08:00 ] 127.0.0.1 /Public/All/js/modernizr.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+ERR: 无法加载控制器:Public/All/js
+
+[ 2017-09-15T18:07:40+08:00 ] 127.0.0.1 /Auth/Login/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tcj_user_auth` WHERE `user_name` = '1' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `tcj_user_auth` SET `md5_key`='1968a5f5a0b2150d5d7414b957c2f7f4' WHERE `id` = 1 [ RunTime:0.0658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2017-09-15T18:07:41+08:00 ] 127.0.0.1 /Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 1  [ RunTime:0.0002s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Footer.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Modal.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Message.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_Bottom_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000029s ]
+
+[ 2017-09-15T18:08:12+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000117s ]
+
+[ 2017-09-15T18:09:09+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000120s ]
+
+[ 2017-09-15T18:10:25+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000036s ]
+
+[ 2017-09-15T18:10:42+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000052s ]
+
+[ 2017-09-15T18:11:30+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000116s ]
+
+[ 2017-09-15T18:12:22+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2017-09-15T18:14:20+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000033s ]
+
+[ 2017-09-15T18:14:22+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000107s ]
+
+[ 2017-09-15T18:14:23+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000052s ]
+
+[ 2017-09-15T18:14:27+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2017-09-15T18:14:28+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000049s ]
+
+[ 2017-09-15T18:15:08+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2017-09-15T18:15:14+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000050s ]
+
+[ 2017-09-15T18:15:28+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000033s ]
+
+[ 2017-09-15T18:15:36+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000121s ]
+
+[ 2017-09-15T18:16:29+08:00 ] 192.168.31.49 /own_test/index.php/Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 40 行.
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = null  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: tcj_uid /var/www/own_test/Application/Common/Controller/BaseController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000036s ]
+
+[ 2017-09-15T20:31:03+08:00 ] ::1 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-09-15T20:31:20+08:00 ] ::1 /own_test/index.php/Auth/Login/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2017-09-15T20:48:19+08:00 ] 127.0.0.1 /Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0003s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Footer.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Modal.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Message.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_Bottom_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000038s ]
+
+[ 2017-09-15T20:48:21+08:00 ] 127.0.0.1 /Auth/Login/Main/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `tcj_user_auth` [ RunTime:0.0004s ]
+SQL: SELECT `user_auth`,`status`,`md5_key` FROM `tcj_user_auth` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `tcj_user_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Title.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/Footer.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Modal.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_New_Message.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Common/View/Admin/LayoutManager/B_Bottom_Script.html): failed to open stream: No such file or directory /var/www/own_test/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000030s ]
+
